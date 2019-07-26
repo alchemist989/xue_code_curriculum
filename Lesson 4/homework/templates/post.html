@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block content %}
+<section  class="section">
+    <div class="container">
+        {% for post in posts %}
+            <h1 class = "title ">Volunteer Opporunity: {{ post.organization }}</h1>
+            <div class = "subtitle" >This post was made by: {{ post.author }}</div>
+            <div class = "subtitle"> With this opporunity you can contribute to a cause. Description: {{ post.description }}</div>
+            <br>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %} 
