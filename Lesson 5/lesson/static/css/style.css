@@ -1,0 +1,51 @@
+.home-hero-image {
+    height: 305px!important;
+    margin-left: 150px!important;
+}
+
+
+
+
+.home-hero-image {
+    height: 290px!important;
+    margin-left: 150px!important;
+}
+
+.nav-btn {
+    font-size: 16px;
+    letter-spacing:2.5px
+}
+
+.brand-title {
+    margin-left: 5px!important;
+    font-size: 22px;
+}
+
+.home-bar-list {
+    padding: 2%;
+    border-bottom: 1px solid #ececec;
+    border-top:1px solid #ececec;
+}
+
+.home-section {
+    margin-top:90px;
+}
+
+.login-btn {
+    margin-right: 9px;
+    margin-top: 7px;
+}
+
+.browse-btn {
+    border-color:#ff5533;
+    background-color:#ff5533;
+    color: #ececec; 
+    margin-top: 6%;
+}
+
+.hero-image-background {
+    background-image: url('../images/volunteer.jpg');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+}

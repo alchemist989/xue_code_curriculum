@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }}</title>
+        {% else %}
+        <title>Flask App</title>
+        {% endif %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+        <link rel="stylesheet" href="static/css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <link rel="stylesheet" href="static/css/debug.css">
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        {% include "navbar.html" %}
+
+        {% block content %}
+        {% endblock %}
+        
+        <!-- Footer -->
+        {% include "footer.html" %}
+    </body>
+</html>
